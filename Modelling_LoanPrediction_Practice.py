@@ -69,7 +69,7 @@ loanTest=loanData_all[loanData_train.shape[0]:]
 ### USING RandomForestClassifier for classification ###
 #random_state=239 => 0.8125
 
-clf=RandomForestClassifier(n_estimators=100, max_features='sqrt', max_depth=8, min_samples_leaf=4, min_samples_split=4, random_state=239)
+clf=RandomForestClassifier(n_estimators=100, max_features='sqrt', max_depth=10, min_samples_leaf=4, min_samples_split=4, random_state=239)
 
 ### Using  LogisticRegression algorithm
 #clf=LogisticRegression(C=0.1, random_state=10, solver='liblinear', multi_class='ovr', penalty='l2')
